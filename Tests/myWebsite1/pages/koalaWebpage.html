@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Koala-tee Webpage</title>
+  <style>
+    html,
+    body {
+      display: flex;
+      flex-direction: column;
+      width: 1660px;
+      height: 100vh;
+      background-color: #b0d484;
+      justify-content: center;
+    }
+
+    .container1 {
+      padding: 1px;
+      display: flex;
+      background-color: #eeeeee;
+      width: 100%;
+      height: auto;
+      overflow: auto;
+      margin: 0 auto 20px auto;
+      font-weight: bold;
+      font-size: xx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container2 {
+      display: flex;
+      flex-grow: 1;
+      background-color: #b0d484;
+      width: 100%;
+      height: auto;
+      overflow: auto;
+      margin: 0 auto 20px auto;
+    }
+
+    .container3 {
+      display: flex;
+      background-color: #eeeeee;
+      width: 100%;
+      height: auto;
+      overflow: auto;
+      margin: 0 auto 20px auto;
+      text-align: center;
+      justify-content: center;
+      font-weight: 300;
+      font-size: xx-large;
+    }
+
+    .box1 {
+      flex: 0.333;
+      background-color: #eeeeee;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .box2 {
+      flex: 1;
+      flex-direction: column;
+      background-color: rgb(0, 0, 0);
+      border: 35px solid black;
+      margin-left: 10px;
+      justify-items: center;
+      align-items: center;
+    }
+
+    .inner-div1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eeeeee;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      text-align: center;
+      font-weight: bold;
+      font-size: xx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .inner-div2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eeeeee;
+      margin: 35px 0;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-weight: 500;
+      font-size: xxx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .inner-div3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eeeeee;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-weight: 500;
+      font-size: xxx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .inner-div4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #eeeeee;
+      margin: 35px 0;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-weight: 500;
+      font-size: xxx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .inner-div5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      background-color: #eeeeee;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .inner-div5a {
+      font-weight: bold;
+      font-size: x-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .inner-div5b {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .box1-text1 {
+      font-weight: bold;
+      font-size: xx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+
+    .box1-text2 {
+      font-weight: bold;
+      font-size: xx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .box1-text3 {
+      font-weight: bold;
+      font-size: xx-large;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div class="container1">
+      <h1>A Koala-tee Webpage</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container2">
+      <div class="box1">
+        <section>
+          <img src="../Assets/images/koala1.jpg" alt="A Koala eating a leaf">
+          <div class="box1-text1">
+            <p>Phascolarctos cinereus</p>
+          </div>
+          <div class="box1-text2">
+            <h1>Fast Facts</h1>
+            <ul>
+              <li>koalas are marsupials</li>
+              <li>Koalas like to eat Eucalyptus plants
+                <ul>
+                  <li>They take up to 100 hours to digest their food!</li>
+                </ul>
+              </li>
+              <li>The latin name for koalas is Phascolarctos cinereus (ash-colored pouch bear)</li>
+            </ul>
+          </div>
+          <br>
+          <img src="../Assets/images/AustraliaMap.jpg" alt="The Map of Australia" height="400" width="400">
+          <div class="box1-text3">
+            <p>Koalas live in Australia</p>
+          </div>
+        </section>
+      </div>
+
+      <div class="box2">
+        <div class="inner-div1">
+          <h1>*('0')* Koala Facts *('0')*</h1>
+        </div>
+        <div class="inner-div2">
+          <p>Koalas are great. They have fluffy ears and are like teddy bears, only they come with a heart. </p>
+        </div>
+        <div class="inner-div3">
+          <p>Koalas live in Australia. They are actually more closely related to the kangaroos than bears (they have
+            pouches!). They eat a lot of Eucalyptus plants. They were discovered by Europeans over 200 years ago, and
+            there are records of them being called names like "koolewong", "colo", "koolah", and "boorabee."</p>
+        </div>
+        <div class="inner-div4">
+          <p>Intrestingly, koalas have one of the smallest brains in porportion to their body weight. They usuallt live
+            a solitary life in trees, sleeping up to 18 hours a day.</p>
+        </div>
+        <div class="inner-div5">
+          <div class="inner-div5a">
+            <h1>CSE154 Koala Art Gallery!</h1>
+          </div>
+          <div class="inner-div5b">
+            <img src="../Assets/images/koala cartoon1.jpg" alt="A cartoon image of a Koala" height="300" width="300"
+              style="margin-right: 10px;">
+            <img src="../Assets/images/koala cartoon2.png" alt="A cartoon image of a Koala" height="300" width="300"
+              style="margin-right: 10px;">
+            <img src="../Assets/images/koala cartoon3.png" alt="A cartoon image of a Koala" height="300" width="300">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container3">
+      <p>Photo images and koala illustration cited in page source</p>
+    </div>
+  </footer>
+</body>
+
+</html>

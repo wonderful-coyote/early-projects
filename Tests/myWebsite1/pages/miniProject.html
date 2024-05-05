@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDSA Mini Project</title>
+  <link rel="stylesheet" href="../Assets/CSS/miniProject.css">
+</head>
+
+<body>
+  <main>
+    <section>
+      <header>
+        <h1>Emergency Bio-data</h1>
+      </header>
+    </section>
+
+    <section class="section-two">
+      <div class="input-form">
+        <form>
+            <ul>
+                <li>
+                    <label for="firstName"> First Name: 
+                        <input name='First Name' type='text' placeholder='John' id="firstName">
+                    </label>
+                  </li>
+        
+                  <li>
+                    <label for="lastName"> Last Name:
+                        <input name='Last Name' type='text' placeholder='Doe' id="lastName">
+                    </label>
+                  </li>
+        
+                  <li>
+                    <label> Gender: 
+                        <input type='radio' name="gender" Value='Male' checked > Male
+                        <input type='radio' name="gender" value='female' > Female
+                    </label>
+                  </li>
+        
+                  <li>
+                    <label for="age"> Age:
+                        <input type='number' placeholder='25' id="age">
+                    </label>
+                  </li>
+        
+                  <li>
+                     <label for="genotype"> Genotype:
+                        <input type='text' placeholder='AA' id="genotype">
+                     </label>
+                  </li>
+        
+                  <li>
+                     <label for="bloodGroup"> Blood Group:
+                        <input type='text' placeholder='O+' id="bloodGroup">
+                     </label>
+                  </li>
+        
+                  <li>
+                     <label for="allergies"> Allergies:
+                        <input type='text' placeholder='Peanuts' id="allergies">
+                     </label>
+                  </li>
+        
+                  <li>
+                     <label> Phone Number:
+                        <input type='number' country-code="" placeholder='999-9999-9999'>
+                     </label>
+                  </li>
+        
+                  <li>
+                     <label for="e-mail"> Email:
+                        <input type='email' placeholder='example@email.com' id="e-mail">
+                     </label>
+                  </li>
+        
+                  <li>
+                    <label for="kin's name"> Next of Kin's Name: 
+                        <input name='Next of Kin' type='text' placeholder='John' id="kin's name">
+                    </label>
+                  </li>
+        
+                  <li>
+                    <label> Next of Kin's Phone Number:
+                       <input type='number' placeholder='999-9999-9999'>
+                    </label>
+                 </li>
+        
+                 <li>
+                    <label for="kin's e-mail"> Next of Kin's Email:
+                       <input type='email' placeholder='example@email.com' id="kin's e-mail">
+                    </label>
+                 </li>
+            </ul>
+        <div class="p-btn">
+            <button  class="btn" id="Submit">Submit</button>
+        </div>
+      </form>
+      </div>
+    </section>
+
+    <section>
+        <p id="result"></p>
+    </section>
+  </main>
+</body>
+<script src="../Assets/script/miniProject.js" defer></script>
+</html>

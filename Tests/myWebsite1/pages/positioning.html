@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <!--<link rel="stylesheet" href="../Assets/CSS/style.css">-->
+    <style>
+        body {
+            display: flex;
+            margin: auto;
+            padding: 10px;
+            background-color: aliceblue;
+        }
+
+        section {
+            padding: 20px;
+            margin: auto;
+            content: " ";
+            height: auto;
+            width: auto;
+            background-color: black;
+        }
+
+        .div-one {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border-radius: 50%;
+        }
+
+        .div-two {
+            content: " ";
+            width: 0%;
+            height: 0%;
+            border-right: 100px solid transparent;
+            border-bottom: 200px solid yellow;
+            border-left: 100px solid transparent;
+        }
+
+        .div-three {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: green;
+        }
+
+        .div-four {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            border-radius: 50%;
+        }
+
+        .div-five {
+            content: " ";
+            width: 0%;
+            height: 0%;
+            border-right: 100px solid transparent;
+            border-bottom: 200px solid brown;
+            border-left: 100px solid transparent;
+        }
+
+        .div-six {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: white;
+        }
+
+        .div-seven {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+            border-radius: 50%;
+        }
+
+        .div-eight {
+            content: " ";
+            width: 0%;
+            height: 0%;
+            border-right: 100px solid transparent;
+            border-bottom: 200px solid aqua;
+            border-left: 100px solid transparent;
+        }
+
+        .div-nine {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: darkcyan;
+        }
+
+        .div-ten {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: goldenrod;
+            border-radius: 50%;
+        }
+
+        .div-eleven {
+            content: " ";
+            width: 0%;
+            height: 0%;
+            border-right: 100px solid transparent;
+            border-bottom: 200px solid pink;
+            border-left: 100px solid transparent;
+        }
+
+        .div-twelve {
+            content: " ";
+            height: 200px;
+            width: 200px;
+            background-color: coral;
+        }
+
+        @media (max-width: 425px) {
+            section {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-content: space-between;
+            }
+        }
+
+        @media (min-width: 426px) {
+            section {
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                gap: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="div-one">
+            <p></p>
+        </div>
+        <div class="div-two">
+            <p></p>
+        </div>
+        <div class="div-three">
+            <p></p>
+        </div>
+        <div class="div-four">
+            <p></p>
+        </div>
+        <div class="div-five">
+            <p></p>
+        </div>
+        <div class="div-six">
+            <p></p>
+        </div>
+        <div class="div-seven">
+            <p></p>
+        </div>
+        <div class="div-eight">
+            <p></p>
+        </div>
+        <div class="div-nine">
+            <p></p>
+        </div>
+        <div class="div-ten">
+            <p></p>
+        </div>
+        <div class="div-eleven">
+            <p></p>
+        </div>
+        <div class="div-twelve">
+            <p></p>
+        </div>
+    </section>
+</body>
+
+</html>
